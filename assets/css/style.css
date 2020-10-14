@@ -68,6 +68,7 @@ body {
 
 a {
   text-decoration: none;
+
 }
 
 /* HEADER */
@@ -98,7 +99,7 @@ a {
   display: inline;
   line-height: 4;
   padding: 22px 10px;
-  margin: 0 20px;
+  margin: 0 10px;
   color: white;
 }
 
@@ -144,15 +145,34 @@ main::after {
   margin:0 5%;
 }
 
-.fas {
+.header_card::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box .card_title {
+  width: 60%;
+  margin-left: 5px;
+}
+
+aside i {
   color: white;
-  background:brown;
-  font-size: 30px;
+  background:#F5B619;
+  font-size: 25px;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
 }
+
+aside a {
+  color: green;
 }
-h2 {
-  display: inline;
+
+aside a:hover {
+  text-shadow: 2px 2px 4px black;
 }
+
 /* /MAIN */
 
 
@@ -185,7 +205,7 @@ h2 {
 }
 
 
-.fab {
+footer i {
   padding: 20px;
   font-size: 40px;
 }
