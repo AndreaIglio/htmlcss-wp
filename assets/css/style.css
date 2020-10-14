@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CLASSI UTILITY */
+
+.float_left {
+  float: left;
+}
+
+.text_white {
+  color: white;
+}
+.bg_white {
+background: white;
+}
+
+.bg_black {
+  background: black;
+}
+
+.border_10 {
+  border: 10px solid white;
+}
+
+.border_5 {
+  border: 5px solid white;
+}
+
+.border_2 {
+  border: 2px solid white;
+}
+
+.padding_10 {
+  padding: 10px;
+}
+
+.border_radius {
+  border-radius: 10px;
+}
+
+.footer_color {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer_color:hover {
+  color: #302A27;
+}
+
+.mt_20 {
+  margin-top: 20px;
+}
+
+.mb_20 {
+  margin-bottom: 20px;
+}
+/* /CLASSI UTILITY */
+
+body {
+  background-image: url('../img/woodpattern.png');
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.header-container {
+  background-image: url('../img/headernature.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+
+.logo_text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+.navbar_ul {
+  text-align: center;
+  background-color: #504741;
+  display: block;
+}
+
+.navbar_ul li {
+  display: inline;
+  line-height: 4;
+  padding: 22px 10px;
+  margin: 0 20px;
+  color: white;
+}
+
+.navbar_ul li:hover {
+  background: #302A27;
+}
+
+
+/* /HEADER */
+
+
+/* MAIN */
+
+
+main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.box {
+  height: 100%;
+  line-height: 2;
+}
+
+.card {
+  padding: 15px;
+  margin: 15px 0px;
+}
+
+
+#cont20 {
+  width: 20%;
+}
+
+#cont30 {
+  width: 30%;
+}
+
+#cont50 {
+  width: 40%;
+  margin:0 5%;
+}
+
+.fas {
+  color: white;
+  background:brown;
+  font-size: 30px;
+}
+}
+h2 {
+  display: inline;
+}
+/* /MAIN */
+
+
+
+/* FOOTER */
+
+
+.footer_container {
+  height: 150px;
+  text-align: center;
+  position: relative;
+}
+
+.footer_text {
+  margin: auto;
+  width: 100%
+}
+
+.hr_footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ICONS SECTION */
+
+
+.hr_footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.fab {
+  padding: 20px;
+  font-size: 40px;
+}
+
+.fa-facebook-f {
+  left:20%;
+  position: absolute;
+}
+
+.fa-twitter {
+  position: absolute;
+  right: 20%;
+}
+
+/* /ICONS SECTION */
+
+/* /FOOTER */
